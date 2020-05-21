@@ -1,9 +1,9 @@
 ---
-name: "env"
+name: "hacks"
 version: "0.1.0"
-usage: "print out the helm environment"
+usage: "hacks things"
 description: |-
-  Print out the helm environment.
+  hacks
 command: "$HELM_PLUGIN_DIR/env.sh"
 hooks:
-  install: "$HELM_PLUGIN_DIR/env.sh --help"
+  install: "$HELM_PLUGIN_DIR/env.sh"
